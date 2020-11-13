@@ -2,10 +2,10 @@ close all
 clear all
 clc
 
-x = [1,5;2,4;3,3;4,2;5,1];    
-y = [1,8;1,8;1,8;1,8;1,8];
+x = [1,5;2,4;3,3;4,2;5,1];    #alternate initial and final X-coordinate of the object
+y = [1,8;1,8;1,8;1,8;1,8];    #alternate initial and final Y-coordinate of the object
 
-l1 = 5.65;l2 = 5.65;
+l1 = 5.65;l2 = 5.65;	      #lenght of link 1 and link 2
 
 
 theta2 = acosd((x.*2+y.*2-(l1*2) - (l2*2)) / (2 * l1*l2));
